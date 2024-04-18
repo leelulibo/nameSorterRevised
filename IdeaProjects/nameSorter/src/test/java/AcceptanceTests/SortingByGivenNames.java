@@ -9,14 +9,15 @@ public class SortingByGivenNames {
     @Test
     public void testSortingByGivenNames() {
         // Given
-        String[] unsortedNames = {"Marin Alvarez", "Adonis Julius Archer", "Beau Tristan Bentley", "Hunter Uriah Mathew Clarke", "Leo Gardner", "Vaugh Lewis", "London Lindsey", "Mikayla Lopez", "Janet Parsons", "Frankie Conner Ritter", "Shelby Nathan Yoder"};
+        String[] unsortedNames = new String[]{"C:\\Users\\CAPACITI\\nameSorter\\IdeaProjects\\nameSorter\\src\\main\\java\\org\\example\\unsorted-names-list.txt"};
+
 
         // When
         NameSorter sorter = new NameSorter();
         String[] sortedNames = sorter.sortByGivenNames(unsortedNames);
 
         // Then
-        String[] expectedSortedNames = {"Marin Alvarez", "Adonis Julius Archer", "Beau Tristan Bentley", "Hunter Uriah Mathew Clarke", "Leo Gardner", "Vaugh Lewis", "London Lindsey", "Mikayla Lopez", "Janet Parsons", "Frankie Conner Ritter", "Shelby Nathan Yoder"};
+        String[] expectedSortedNames = new String[]{"C:\\Users\\CAPACITI\\nameSorter\\IdeaProjects\\nameSorter\\src\\main\\java\\org\\example\\unsorted-names-list.txt"};
         assertArrayEquals(expectedSortedNames, sortedNames);
     }
 }

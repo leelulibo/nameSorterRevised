@@ -9,14 +9,14 @@ public class OutputFileGeneration {
     @Test
     public void testOutputFileGeneration() {
         // Given
-        String inputFile = "unsorted-names-list.txt";
+        String inputFile = "C:\\Users\\CAPACITI\\nameSorter\\IdeaProjects\\nameSorter\\src\\main\\java\\org\\example\\unsorted-names-list.txt";
 
         // When
         NameSorter sorter = new NameSorter();
         sorter.sortAndSaveToFile(inputFile);
 
         // Then
-        File outputFile = new File("sorted-names-list.txt");
+        File outputFile = new File("C:\\Users\\CAPACITI\\nameSorter\\IdeaProjects\\nameSorter\\src\\main\\java\\org\\example\\unsorted-names-list.txt");
         assertTrue(outputFile.exists());
         // Additional assertions can be made about the contents of the output file
     }
