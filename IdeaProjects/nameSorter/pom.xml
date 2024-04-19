@@ -20,6 +20,37 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <mainClass><build>
+                        <plugins>
+                            <plugin>
+                                <groupId>org.codehaus.mojo</groupId>
+                                <artifactId>exec-maven-plugin</artifactId>
+                                <version>3.0.0</version>
+                                <configuration>
+                                    <mainClass>com.example.GivenNames</mainClass>
+                                </configuration>
+                            </plugin>
+                        </plugins>
+                    </build>
+                    </mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

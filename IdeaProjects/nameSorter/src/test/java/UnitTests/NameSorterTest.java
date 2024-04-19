@@ -21,8 +21,11 @@ class GivenNamesTest {
         // Expected sorted order
         List<String> expectedSortedNames = readNamesFromFile("libs/sorted-names-list.txt");
 
+        // Create an instance of GivenNames
+        GivenNames givenNames = new GivenNames();
+
         // Sort the names
-//        GivenNames.sortNames(unsortedNames);
+        givenNames.sortNames(unsortedNames);
 
         // Assert the sorted names
         assertEquals(expectedSortedNames.size(), unsortedNames.size());
