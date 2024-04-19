@@ -1,0 +1,39 @@
+MAIN_CLASS := out/artifacts/nameSorter_jar/nameSorter.jar
+REF_ID := $$(ps aux | grep $(MAINCLASS) | grep -v grep | awk '{print $$2}')
+DEV_RELEASE := 1.0.0-SNAPSHOT
+VER_RELEASE := 1.0.0
+#####################################
+.PHONY: compile verify test package
+all: compile verify test package dev-release ver-release tags
+
+compile:
+	@echo "Compiling..."
+	@cd MAIN_CLASS && mvn compile
+
+verify:
+	@echo "Verifying..."
+	@cd MAIN_CLASS && mvn verify
+
+test:
+	@echo "Running MAIN......"
+	@java -jar $(MAIN_CLASS) &
+	@cd MAIN_CLASS && mvn test
+	@kill -9 $(REF_ID)
+
+
+package:
+	@echo "Packaging..."
+	@cd MAIN_CLASS && mvn clean package
+
+ver-release:
+	@echo "Source base version 1.0.0 released"
+	@cd MAIN_CLASS && sed -i 's|$(DEV_RELEASE)|$(VER_RELEASE)|' pom.xml
+
+dev-release:
+	@echo "Source base version 1.0.0 released"
+	@cd MAIN_CLASS && sed -i 's|$(VER_RELEASE)|$(DEV_RELEASE)|' pom.xml
+
+#tags:
+#	@echo "Version tags"
+#	@git tag release-$(VER_RELEASE)
+#	@git push origin release-$(VER_RELEASE)
