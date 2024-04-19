@@ -9,21 +9,8 @@ import java.util.Comparator;
 import java.util.List;
 
 public class GivenNames implements NameSorting {
-    public static void main(String[] args) {
-        String fileName = "libs/unsorted-names-list.txt";
-        List<String> names = readNamesFromFile(fileName);
-        if (names.isEmpty()) {
-            System.err.println("Error: No names found in the input file.");
-            return;
-        }
 
-        GivenNames givenNames = new GivenNames(); // Creating an instance of GivenNames
-        givenNames.sortNames(names); // Calling sortNames using the instance
-
-        printSortedNames(names);
-    }
-
-    private static List<String> readNamesFromFile(String fileName) {
+    static List<String> readNamesFromFile(String fileName) {
         List<String> names = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             String line;
@@ -36,14 +23,14 @@ public class GivenNames implements NameSorting {
         return names;
     }
 
-    private static void printSortedNames(List<String> names) {
+    static void printSortedNames(List<String> names) {
         for (String name : names) {
             System.out.println(name);
         }
     }
 
     @Override
-    public  void sortNames(List<String> names) {
+    public void sortNames(List<String> names) {
         Collections.sort(names, new Comparator<String>() {
             @Override
             public int compare(String name1, String name2) {
