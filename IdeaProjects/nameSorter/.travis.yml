@@ -1,0 +1,25 @@
+language: java
+jdk:
+  - openjdk11  # Choose the Java version you want to use
+
+# Define the Maven build lifecycle phases to execute
+before_script:
+  - make compile
+
+script:
+  - make verify
+  - make test
+
+# (Optional) Configure deployment settings
+deploy:
+  provider: script
+  script: make package  # Replace this with the command to package your application
+  skip_cleanup: true
+  on:
+    branch: master  # Specify the branch to deploy from
+
+# (Optional) Configure cache settings to speed up builds
+# cache:
+#   directories:
+#     - $HOME/.m2/repository
+#     - $HOME/.m2/wrapper
