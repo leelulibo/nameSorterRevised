@@ -1,0 +1,29 @@
+language: java
+jdk:
+  - openjdk11  # Choose the Java version you want to use
+
+# Maven build lifecycle phases to execute
+before_script:
+  - make compile
+
+script:
+  - make verify
+  - make test
+
+
+services:
+  - docker
+
+before_install:
+  - docker build -t myapp .
+
+
+# Deployment settings
+deploy:
+  provider: script
+  script: make package
+  skip_cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: gh-pages  # Specify the branch to deploy from
+
