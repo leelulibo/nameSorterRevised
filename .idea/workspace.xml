@@ -6,7 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="720f007b-db6c-428b-b1d6-43183338369f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects/nameSorter/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.Dockerfile.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/artifacts/nameSorter_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/MakeFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/libs/sorted-names-list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/libs/unsorted-names-list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/nameSorter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/sorted-names-list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/GivenNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/NameSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/ReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/SortNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/GivenMultipleNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/InputOutputFileValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/OutputFileGeneration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/SortByGivenName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/SortByLastName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/UnitTests/NameSorterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/UnitTests/SortNames.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +46,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -32,6 +63,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/CAPACITI/nameSorter&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -65,6 +97,11 @@
       <workItem from="1713429048296" duration="278000" />
       <workItem from="1713617233934" duration="5366000" />
       <workItem from="1713629018365" duration="2592000" />
+      <workItem from="1713768534016" duration="1351000" />
+      <workItem from="1713770271688" duration="588000" />
+      <workItem from="1713770952936" duration="52000" />
+      <workItem from="1713771026099" duration="1428000" />
+      <workItem from="1713772785063" duration="799000" />
     </task>
     <servers />
   </component>
