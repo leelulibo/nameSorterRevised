@@ -27,7 +27,7 @@ Additionally, the project utilizes Docker for containerization, allowing for eas
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/name-sorter.git
+   git clone https://github.com/leelulibo/nameSorter
    ```
 
 2. Build the project using Maven:
