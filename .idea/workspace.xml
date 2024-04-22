@@ -4,37 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="720f007b-db6c-428b-b1d6-43183338369f" name="Changes" comment="">
+    <list default="true" id="720f007b-db6c-428b-b1d6-43183338369f" name="Changes" comment="push">
+      <change afterPath="$PROJECT_DIR$/nameSorter/src/main/java/org/example/sorted-names-list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nameSorter/src/main/java/org/example/unsorted-names-list.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.Dockerfile.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/artifacts/nameSorter_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/MakeFile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/libs/sorted-names-list.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/libs/unsorted-names-list.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/nameSorter.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/sorted-names-list.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/GivenNames.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/NameSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/ReadFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/java/org/example/SortNames.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/GivenMultipleNames.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/InputOutputFileValidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/OutputFileGeneration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/SortByGivenName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/AcceptanceTests/SortByLastName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/UnitTests/NameSorterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/nameSorter/src/test/java/UnitTests/SortNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nameSorter/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/nameSorter/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,26 +32,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CAPACITI/nameSorter&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/CAPACITI/nameSorter/nameSorter/src/main/java/org/example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CAPACITI\nameSorter\nameSorter\src\main\java\org\example" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -101,8 +80,25 @@
       <workItem from="1713770271688" duration="588000" />
       <workItem from="1713770952936" duration="52000" />
       <workItem from="1713771026099" duration="1428000" />
-      <workItem from="1713772785063" duration="799000" />
+      <workItem from="1713772785063" duration="1989000" />
     </task>
+    <task id="LOCAL-00001" summary="push">
+      <option name="closed" value="true" />
+      <created>1713774029762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713774029762</updated>
+    </task>
+    <task id="LOCAL-00002" summary="push">
+      <option name="closed" value="true" />
+      <created>1713774109403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713774109403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
 </project>
