@@ -10,7 +10,7 @@ import java.util.List;
 
 public class SortNames implements NameSorting {
 
-    private static boolean isReadable(String fileName) {
+    public boolean isReadable(String fileName) {
         return Files.isReadable(Paths.get(fileName));
     }
 

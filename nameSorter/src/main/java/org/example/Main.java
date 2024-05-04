@@ -6,37 +6,39 @@ public class Main {
 
     public static void main(String[] args) {
         runSortNames();
-        runGivenNames();
+        runGivenNames(); // Now this will run without any issues.
     }
 
     private static void runSortNames() {
-        String inputFileName = "unsorted-names-list.txt";
-        String outputFileName = "sorted-names-list.txt";
+        String inputFileName = "src\\main\\java\\org\\example\\unsorted-names-list.txt";
+        String outputFileName = "src\\main\\java\\org\\example\\sorted-names-list.txt";
 
         SortNames sorter = new SortNames();
-        List<String> names = sorter.readNamesFromFile(inputFileName);
+        List<String> names = SortNames.readNamesFromFile(inputFileName);
+
         if (names.isEmpty()) {
             System.err.println("Error: No names found in the input file.");
             return;
         }
 
         sorter.sortNames(names);
-        sorter.writeNamesToFile(names, outputFileName);
+        SortNames.writeNamesToFile(names, outputFileName);
+
     }
 
     private static void runGivenNames() {
-        String fileName = "libs/unsorted-names-list.txt";
+        String fileName = "src\\main\\java\\org\\example\\unsorted-names-list.txt";
 
-        GivenNames givenNames = new GivenNames();
-        List<String> names =
-                givenNames.readNamesFromFile(fileName);
+        GivenNames givenNames = new GivenNames(); // Instantiate the GivenNames class
+        List<String> names = SortNames.readNamesFromFile(fileName);
+
         if (names.isEmpty()) {
             System.err.println("Error: No names found in the input file.");
             return;
         }
 
         givenNames.sortNames(names);
+        GivenNames.printSortedNames(names);
 
-        givenNames.printSortedNames(names);
     }
 }
