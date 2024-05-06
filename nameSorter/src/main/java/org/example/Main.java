@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         runSortNames();
-        runGivenNames();
+        runGivenNames(); // Now this will run without any issues.
     }
 
     private static void runSortNames() {
